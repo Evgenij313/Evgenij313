@@ -1,0 +1,96 @@
+@font-face {
+    font-family: "Formular-light";
+    src: url("./font/Formular-Light.woff2");
+}
+
+@font-face {
+    font-family: "Formular-regular";
+    src: url("./font/Formular.woff2");
+}
+
+@font-face {
+    font-family: "Formular-medium";
+    src: url("./font/Formular-Medium.woff2");
+}
+
+@font-face {
+    font-family: "Formular-bold";
+    src: url("./font/Formular-Bold.woff2");
+}
+
+@font-face {
+    font-family: "Formular-black";
+    src: url("./font/Formular-Black.woff2");
+}
+
+.text-xs {
+   font-size: 12px;
+   line-height: 16px;
+}
+
+.text-sm {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.text-base {
+    font-size: 16px;
+    line-height: 24px; 
+}
+
+.text-lg {
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.text-xl {
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.text-2xl {
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.text-3xl {
+    font-size: 30px;
+    line-height: 36px;
+}
+
+.text-4xl {
+    font-size: 36px;
+    line-height: 40px; 
+}
+
+@media screen and (max-width: 1536px) and (min-width: 1025px) {
+    .text-4xl {
+        font-size: 30px;
+        line-height: 36px; 
+    }
+    .text-2xl {
+        font-size: 20px;
+        line-height: 28px;
+    }
+ 
+}
+
+.light {
+    font-family: "Formular-light";
+}
+
+.regular {
+    font-family: "Formular-regular";
+}
+
+.medium {
+    font-family: "Formular-medium";
+}
+
+.bold {
+    font-family: "Formular-bold";
+}
+
+.black {
+    font-family: "Formular-black";
+}
